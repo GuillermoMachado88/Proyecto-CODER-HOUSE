@@ -1,0 +1,74 @@
+/* Fuentes
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+Paleta de colores: 
+Fresh air #D2FEB4
+Seagreen #90F71D
+Aqua #10BBEB
+Turquiose #087CEA
+Blue Deep Ocean #4D1DDE
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    }
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list{  
+    list-style-type: none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    background-color:#10BBEB;
+    color: #4D1DDE;
+}
+
+main section{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+    background-color: #00aae4;
+    text-align: justify;
+    text-overflow: initial;
+    text-size-adjust: 50%;
+}
+
+main section img{
+    width: 50%;
+}
+main section h1{
+    font-style: inherit;
+    font-size: 40px;
+}
+footer{
+    background-color: #51d1f6;
+    color: #4D1DDE;
+    font-family: 'Outfit', sans-serif;
+    list-style-type: none;
+}
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.img-contacto{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 250px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
